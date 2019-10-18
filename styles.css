@@ -3,6 +3,7 @@
 lightblue;
     color: black
     
+    
 }@media only screen and (max-width: 1000px) {
     body {
       background-color: lightblue;
@@ -13,7 +14,7 @@ lightblue;
     
    @media only screen and (max-width: 800px) {
       body {
-        background-color:pink;
+        background-color:gray;
         color:black
       }
     }
@@ -28,4 +29,8 @@ lightblue;
       font-family: "Times New Roman", Times, serif;
       
     }
-    
+    h1{
+      text-align: center;
+    }
+  
+          
