@@ -1,19 +1,14 @@
  body {
     background-color:
-  gray;
-    color: pink
+lightblue;
+    color: black
 }@media only screen and (max-width: 1000px) {
     body {
       background-color: lightblue;
       color:blue
      }
    }
-    @media only screen and (max-width: 1200px) {
-      body {
-        background-color: green;
-        color:red
-      }
-    }
+    
     
    @media only screen and (max-width: 800px) {
       body {

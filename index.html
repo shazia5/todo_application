@@ -1,117 +1,127 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>web application</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my todo list</title>
 
-    <link rel="stylesheet" href="styles.css">
-  
-  </head>
-  
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
-    <script src="" async defer></script>
-   <body>
-     <h1>TO DO LIST</h1>
-     
-     <!-- <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <div class="input-group-text">
-            <input type="checkbox" aria-label="Checkbox for following text input">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+  <body>
+     <div class ="container">
+       <h1>To do list</h1>
+          
+       
+                    <div class="row">
+                    <div class="col-12 col-md-10">
+                        <input class="form-control form-control-sm" type="text" placeholder="what do you want to do">   
+                  </div>
+                      <div class="col-12 col-md-2">
+                      
+                          <button type="button" class="btn btn-success">CREAT</button>
+                 </div>
           </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-      </div> -->
-    
-    
-     <div class="alert alert-primary" role="alert">
-      task manager
+          <div class="row d-none d-sm-block">
+            <div class="col">
+              2 Tasks Remaining
+
+          </div>
+          </div>
+          <div class="row">
+          
+          <div class ="col-2">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+          </div>
+            <div class="col-10">
+              Take windows measurements to order curtain
     </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-outline-secondary" type="button" id="button-addon1">CREAT</button>
+
+        <div class="col-6">
+            <button type="button" class="btn btn-primary">Done</button>
+    </div>
+       <div class= "col 6">
+          <button type="button" class="btn btn-warning">Edit</button> 
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
       </div>
-     
-    
-   <div class="container"></div>
-
-
- <table class="table table-sm">
-  
-  <tbody>
-      <tr>
-      <th scope="row"> <div class="input-group-text">
-          <input type="checkbox" aria-label="Checkbox for following text input">
-        </div>
-      </th>
-      <td colspan="8">take windows measurements to order curtain</td>
-      <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Edite</button>
-        <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Done</button>
-   <tr>
-      <th scope="row"> <div class="input-group-text">
-          <input type="checkbox" aria-label="Checkbox for following text input">
-        </div></th>
-      <td colspan="8">call Hillary's to check if blinds are ready</td>
-      <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Edite</button>
-        <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Done</button>  
-</tr>
-  <tr>
-    <th scope="row"> <div class="input-group-text">
-        <input type="checkbox" aria-label="Checkbox for following text input">
-      </div></th>
-    <td colspan="8">Iman's orthodontist appointment @10am</td>
-    <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Edite</button>
-      <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Done</button>
-</tr>
-<tr>
-    <th scope="row"> <div class="input-group-text">
-        <input type="checkbox" aria-label="Checkbox for following text input">
-      </div></th>
-    <td colspan="8">collect repeat prescription from GP</td>
-    <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Edite</button>
-      <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Done</button>
-</tr>
-<tr>
-    <th scope="row"> <div class="input-group-text">
-        <input type="checkbox" aria-label="Checkbox for following text input">
-      </div></th>
-    <td colspan="8">book theory test for Areesh</td>
-    <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Edite</button>
-      <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Done</button>
-</tr>
-<tr>
-    <th scope="row"> <div class="input-group-text">
-        <input type="checkbox" aria-label="Checkbox for following text input">
-      </div></th>
-    <td colspan="8">Arryans PTA @6pm</td>
-    <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Edite</button>
-      <td colspan="2"><button type="button" class="btn btn-primary btn-sm">Done</button>
-</tr>
-
-    
-  </tbody>
-</table>
-
-
-
-
-
-      <button class="btn btn-primary" type="delete">delete</button>
-
       
+    
+      <div class="row">
+          
+          <div class ="col-2">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+          </div>
+            <div class="col-10">
+              Arryans orthodontist appointment @ 10 am
+    </div>
+
+        <div class="col-6">
+            <button type="button" class="btn btn-primary">Done</button>
+    </div>
+       <div class= "col 6">
+          <button type="button" class="btn btn-warning">Edit</button> 
+        </div>
+      </div>   
+      <div class="row">
+          
+          <div class ="col-2">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+          </div>
+            <div class="col-10">
+              Iman pta @ 6pm 
+    </div>
+
+        <div class="col-6">
+            <button type="button" class="btn btn-primary">Done</button>
+    </div>
+       <div class= "col 6">
+          <button type="button" class="btn btn-warning">Edit</button> 
+        </div>
+      </div>   
+      <div class="row">
+          
+          <div class ="col-2">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+          </div>
+            <div class="col-10">
+              collect prescription from pharmacy.
+    </div>
+
+        <div class="col-6">
+            <button type="button" class="btn btn-primary">Done</button>
+    </div>
+       <div class= "col 6">
+          <button type="button" class="btn btn-warning">Edit</button> 
+        </div>
+      </div>   
+      <div class="row">
+          
+          <div class ="col-2">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+          </div>
+            <div class="col-10">
+              Book theory test for Areesh
+    </div>
+
+        <div class="col-6">
+            <button type="button" class="btn btn-primary">Done</button>
+    </div>
+       <div class= "col 6">
+          <button type="button" class="btn btn-warning">Edit</button> 
+        </div>
+      </div> 
+      <div class="row">
+         <div class ="col-12">  
+              <button type="button" class="btn btn-dark">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+ 
        
  </body>
 </html>
