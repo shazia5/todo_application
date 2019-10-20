@@ -1,3 +1,5 @@
+
+ 
  body {
     background-color:
 lightblue;
@@ -14,15 +16,15 @@ lightblue;
     
    @media only screen and (max-width: 800px) {
       body {
-        background-color:gray;
-        color:black
+        background-color: rgb(162, 206, 204);
+        color:darkslategrey
       }
     }
     
     @media only screen and (max-width: 600px) {
       body {
         background-color: lightblue;
-        color:darkred
+        color:black
       }
     }
     body {
